@@ -1,0 +1,66 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"extensions": {
+		"recommendations": [
+			"formulahendry.dotnet-test-explorer",
+			"formulahendry.dotnet",
+			"fudge.auto-using",
+			"ms-dotnettools.csharp",
+			"jchannon.csharpextensions",
+			"k--kato.docomment",
+			"editorconfig.editorconfig",
+			"ms-azuretools.vscode-docker",
+			"mhutchie.git-graph",
+			"donjayamanne.githistory",
+			"eamodio.gitlens",
+			"jmrog.vscode-nuget-package-manager",
+			"rangav.vscode-thunder-client",
+			"visualstudioexptteam.vscodeintellicode",
+			"fernandoescolar.vscode-solution-explorer"
+		]
+	},
+	// "launch": {
+	// 	"configurations": [
+	// 		{
+	// 			"name": "Docker Attach .NET Core (Preview)",
+	// 			"type": "docker",
+	// 			"request": "attach",
+	// 			"platform": "netCore",
+	// 			"sourceFileMap": {
+	// 				"/work/app/src/BuukStand.Data": "${workspaceFolder}/src/BuukStand.Data",
+	// 				"/work/app/src/BuukStand.Identity": "${workspaceFolder}/src/BuukStand.Identity",
+	// 				"/work/app/src/BuukStand.Identity.Models": "${workspaceFolder}/src/BuukStand.Identity.Models",
+	// 				"/work/app/src/BuukStand.Models": "${workspaceFolder}/src/BuukStand.Models",
+	// 				"/work/app/src/BuukStand.WebApi": "${workspaceFolder}/src/BuukStand.WebApi",
+	// 			}
+	// 		}
+	// 	]
+	// },
+	"settings": {
+		"diffEditor.ignoreTrimWhitespace": false,
+		"dotnet-test-explorer.testProjectPath": "**/*.sln",
+		"editor.suggestSelection": "first",
+		"editor.autoClosingBrackets": "always",
+		"editor.autoClosingQuotes": "always",
+		"editor.defaultFormatter": "ms-dotnettools.csharp",
+		"editor.formatOnSave": true,
+		"git.autofetch": true,
+		"gitlens.codeLens.scopes": [
+			"blocks",
+			"document"
+		],
+		"gitlens.currentLine.enabled": true,
+		"gitlens.hovers.currentLine.over": "line",
+		"omnisharp.enableEditorConfigSupport": true,
+		"omnisharp.enableImportCompletion": true,
+		"omnisharp.enableMsBuildLoadProjectsOnDemand": true,
+		"omnisharp.enableRoslynAnalyzers": true,
+		"omnisharp.disableMSBuildDiagnosticWarning": true,
+		"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+		"editorconfig.generateAuto": false
+	}
+}
