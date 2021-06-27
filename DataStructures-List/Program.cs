@@ -6,7 +6,7 @@ namespace DataStructures_List
     {
         static void Main(string[] args)
         {
-            var list = new ArrayList<int>();
+            var list = new List<int>();
             list.Add(0, 1); // [1]
             Console.WriteLine(list.ToString());
             list.Add(0, 2); // [2,1]
@@ -14,7 +14,7 @@ namespace DataStructures_List
             list.Add(1, 3); // [2,3,1]
             Console.WriteLine(list.ToString());
 
-            var list2 = new ArrayList<int>();
+            var list2 = new List<int>();
             list2[0] = 1; // [1]
             Console.WriteLine(list2.ToString());
             list2[0] = 2; // [2,1]
@@ -24,13 +24,13 @@ namespace DataStructures_List
         }
     }
 
-    public class ArrayList<TItem>
+    public class List<TItem>
     {
         private TItem[] _buffer;
         private int _capacity;
         public int Count { get; private set; }
 
-        public ArrayList(int initialCapacity = 16)
+        public List(int initialCapacity = 16)
         {
             _capacity = initialCapacity;
             _buffer = new TItem[initialCapacity];
